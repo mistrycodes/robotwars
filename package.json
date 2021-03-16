@@ -1,0 +1,22 @@
+{
+  "name": "robot-wars",
+  "version": "1.0.0",
+  "description": "coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js ENV=STUFF",
+    "build": "tsc",
+    "dev": "nodemon",
+    "start:dev": "ts-node src/Main.ts"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.9"
+  }
+}
